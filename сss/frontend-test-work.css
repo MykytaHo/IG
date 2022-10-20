@@ -1,0 +1,45 @@
+
+a{
+font: var(--unnamed-font-style-normal) normal 300 24px/27px Gotham Pro;
+text-align: left;
+font: normal normal 300 24px/27px Gotham Pro;
+letter-spacing: 1.2px;
+color: #FFFFFF;
+opacity: 1;
+	
+}
+
+
+
+
+
+
+
+
+
+:root {
+
+/* Colors: */
+--main: #21BDAB;
+--main-2: #FEB524;
+--secondary: #242424;
+
+/* Font/text values */
+--unnamed-font-family-caveat: Caveat;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-bold: bold;
+--unnamed-font-size-45: 45px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-25: 25px;
+}
+
+/* Character Styles */
+.titles {
+font-family: var(--unnamed-font-family-caveat);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-bold);
+font-size: var(--unnamed-font-size-45);
+line-height: var(--unnamed-line-spacing-25);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--secondary);
+}
